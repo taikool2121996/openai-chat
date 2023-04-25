@@ -96,7 +96,11 @@ const handleSubmit = async (e) => {
   // messageDiv.innerHTML = "..."
   loader(messageDiv);
 
-  const response = await fetch('http://localhost:8000', {
+  // Development
+  // const response = await fetch('http://localhost:8000', {
+
+  // Production
+  const response = await fetch('https://openai-chat-aib6.onrender.com/', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -123,7 +127,7 @@ const handleSubmit = async (e) => {
 
 form.addEventListener('submit', handleSubmit);
 form.addEventListener('keyup', (e) => {
-  if (e.key === 'Enter' && e.ctrlKey) {
+  if (e.key === 'Enter') {
     handleSubmit(e);
   }
 });
