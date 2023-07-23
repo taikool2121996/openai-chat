@@ -1,3 +1,3 @@
 # ChatGPT - Text-davinci-003
-![OpenAI ChatGPT](https://user-images.githubusercontent.com/72439970/234197256-10ae8895-5859-418a-a6c4-88c02eaab2a8.png)
+![OpenAI ChatGPT](https://user-images.githubusercontent.com/72439970/255378987-2b550034-6c7b-4f71-ac1f-af176b0b491e.png)
 
